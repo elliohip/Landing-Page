@@ -1,0 +1,88 @@
+html {
+
+    min-height: 100%;
+
+}
+
+.container{
+    
+}
+
+.header{
+    height: 100px;
+    background-color: rgb(106, 163, 101);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    gap: 70%;
+}
+
+.header h1{
+    justify-content: flex-start;
+    align-self: flex-start;
+    font-size: 25px;
+    font-family: fantasy;
+}
+
+.box-wrapper {
+    display: flex;
+    flex: 1;
+    background-color: aqua;
+    height: 20%;
+    justify-content: center;
+    gap: 10px;
+}
+
+.box {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 150px;
+    border:10px;
+    border-color: blue;
+    width: 150px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    
+}
+
+.box #b1{
+
+    background-color: aqua;
+}
+
+.box #b2{
+
+    background-color: aqua;
+}
+
+.box #b3{
+
+    background-color: aqua;
+}
+
+
+
+.description {
+    display: flex;
+    
+    height: 20%;
+    justify-content: center;
+    gap: 10%;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(83, 125, 130);
+}
+
+.desc-text {
+    flex-direction: column;
+}
+
+.pic{
+    height: 40%;
+    width: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 20px;
+}
+
