@@ -5,7 +5,7 @@ html {
 }
 
 .container{
-    
+    background-color:cornflowerblue;
 }
 
 .header{
@@ -15,7 +15,7 @@ html {
     justify-content: center;
     align-items: flex-start;
 
-    gap: 70%;
+    gap: 60%;
 }
 
 .header h1{
@@ -46,19 +46,22 @@ html {
     
 }
 
-.box #b1{
+.box#b1{
 
-    background-color: aqua;
+    
 }
 
-.box #b2{
+.box#b2{
 
-    background-color: aqua;
+    background-color: blue;
 }
 
-.box #b3{
+.box#b3{
 
-    background-color: aqua;
+    background-color: red;
+}
+.box#b4{
+
 }
 
 
@@ -72,6 +75,11 @@ html {
     flex-direction: row;
     align-items: center;
     background-color: rgb(83, 125, 130);
+
+    align-self: center;
+    margin-left: 100px;
+    margin-right: 100px;
+
 }
 
 .desc-text {
